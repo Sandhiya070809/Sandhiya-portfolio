@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sandhiya J • Portfolio</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top bar: left brand, right hamburger -->
+  <header class="topbar">
+    <div class="brand">Sandhiya J</div>
+    <button class="menu-toggle" aria-label="open menu" id="menuToggle">
+      <span class="hamb"></span>
+    </button>
+    <!-- hidden nav for mobile; shown on desktop by CSS -->
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home" class="navlink">Home</a>
+      <a href="#about" class="navlink">About Me</a>
+      <a href="#skills" class="navlink">Skills</a>
+      <a href="#cert" class="navlink">Certificates</a>
+      <a href="#conf" class="navlink">Conference</a>
+      <a href="#contact" class="navlink">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Homepage / Hero -->
+  <main>
+    <section id="home" class="hero">
+      <h1 class="welcome">Welcome to My Portfolio</h1>
+      <p class="intro">Hello! I am <span class="name">Sandhiya J</span>, passionate about learning and growing.</p>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">My Skills</h2>
+      <ul class="skills-list">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python Programming</li>
+        <li>Database Management</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <!-- small placeholder sections to match your requested nav -->
+    <section id="about" class="simple-section">
+      <h2 class="section-title">About Me</h2>
+      <p class="simple-text">BCA student • Learning web & cybersecurity • Interested in secure web development.</p>
+    </section>
+
+    <section id="cert" class="simple-section">
+      <h2 class="section-title">Certificates</h2>
+      <p class="simple-text">Web Development • Linux Essentials • Cybersecurity Fundamentals</p>
+    </section>
+
+    <section id="conf" class="simple-section">
+      <h2 class="section-title">Conference</h2>
+      <p class="simple-text">Attended local tech & security meetups and workshops.</p>
+    </section>
+
+    <section id="contact" class="simple-section">
+      <h2 class="section-title">Contact</h2>
+      <p class="simple-text">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Sandhiya J</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
